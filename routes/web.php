@@ -41,7 +41,7 @@ Route::get('/about', function () {
 
 Route::get('/home', function () {
     $data = [];
-    $data['version'] = '0.1.1';
+    $data['version'] = 'Djordje';
     return view('welcome', $data);
 });
 
@@ -65,6 +65,6 @@ Route::get('/facades/decrypt', function () {
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/generate/password', function (){return bcrypt('Udji-pescanicovece123');} );

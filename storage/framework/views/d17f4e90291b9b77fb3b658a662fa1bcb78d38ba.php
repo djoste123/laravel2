@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
     <div class="row">
       <div class="medium-6 columns">
-        <h4>Landon Hotel App <?php echo e($version); ?></h4>
+        <h4>Landon Hotel App Djordje</h4>
         <img class="thumbnail" src="images/attractions.jpg">
       </div>
       <div class="medium-6 large-5 columns">
